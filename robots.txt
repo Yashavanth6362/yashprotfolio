@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://REPLACE-WITH-YOUR-SITE-DOMAIN/sitemap.xml
+
+Sitemap: https://yashavanth.yashavanthan22.workers.dev/sitemap.xml
