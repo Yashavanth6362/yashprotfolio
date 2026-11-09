@@ -1,4 +1,47 @@
 {
-  "_help": "Add each certificate: title, issuer, date, image (URL), link (verification, optional).",
-  "certificates": []
+  "_help": "Certificate gallery. Images hosted in yashavanth-assets.",
+  "certificates": [
+    {
+      "title": "Concrete Field",
+      "issuer": "",
+      "date": "",
+      "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/d7d343cc64fa4f0172ac13f742fb945e1e6a2a7a/Certificates/Concrete_field_page_01.webp",
+      "link": ""
+    },
+    {
+      "title": "Introduction to GIS Mapping",
+      "issuer": "",
+      "date": "",
+      "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/d7d343cc64fa4f0172ac13f742fb945e1e6a2a7a/Certificates/Introduction_of_gis_mapping_page_01.webp",
+      "link": ""
+    },
+    {
+      "title": "Plant Earth and You",
+      "issuer": "",
+      "date": "",
+      "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/d7d343cc64fa4f0172ac13f742fb945e1e6a2a7a/Certificates/Plant_earth_and_you_page_01.webp",
+      "link": ""
+    },
+    {
+      "title": "Positive Psychology",
+      "issuer": "",
+      "date": "",
+      "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/d7d343cc64fa4f0172ac13f742fb945e1e6a2a7a/Certificates/Postive_pysicalogy_page_01.webp",
+      "link": ""
+    },
+    {
+      "title": "Remote Sensing",
+      "issuer": "",
+      "date": "",
+      "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/d7d343cc64fa4f0172ac13f742fb945e1e6a2a7a/Certificates/Remote_sensing_page_01.webp",
+      "link": ""
+    },
+    {
+      "title": "Sustainable Urban Water System",
+      "issuer": "",
+      "date": "",
+      "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/d7d343cc64fa4f0172ac13f742fb945e1e6a2a7a/Certificates/Sustainable_urban_water_system_page_01.webp",
+      "link": ""
+    }
+  ]
 }
