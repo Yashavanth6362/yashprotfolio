@@ -2,9 +2,9 @@
 <!-- Replace REPLACE-WITH-YOUR-SITE-DOMAIN with your live Cloudflare Pages/custom domain. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://yashavanth.yashavanthan22.workers.dev/</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-SITE-DOMAIN/projects/</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-SITE-DOMAIN/projects/mit-mysuru-digital-campus-gis.html</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-SITE-DOMAIN/articles/</loc></url>
+  <url><loc>https://yashavanth.yashavanthan22.workers.dev/projects/</loc></url>
+  <url><loc>https://yashavanth.yashavanthan22.workers.dev/mit-mysuru-digital-campus-gis.html</loc></url>
+  <url><loc>https://yashavanth.yashavanthan22.workers.dev/articles/</loc></url>
   <url><loc>https://REPLACE-WITH-YOUR-SITE-DOMAIN/articles/Article1.html</loc></url>
   <url><loc>https://REPLACE-WITH-YOUR-SITE-DOMAIN/articles/Article2.html</loc></url>
   <url><loc>https://REPLACE-WITH-YOUR-SITE-DOMAIN/certificates/</loc></url>
