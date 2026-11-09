@@ -1,0 +1,4 @@
+{
+  "_help": "Add each certificate: title, issuer, date, image (URL), link (verification, optional).",
+  "certificates": []
+}

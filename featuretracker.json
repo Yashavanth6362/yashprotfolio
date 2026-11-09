@@ -1,0 +1,25 @@
+{
+  "_help": "Current focus topics shown on the portfolio homepage. Keep descriptions factual and update as work progresses.",
+  "features": [
+    {
+      "title": "GIS & campus mapping",
+      "status": "In progress",
+      "note": "Developing a structured approach to spatial layers, campus features and geospatial documentation."
+    },
+    {
+      "title": "Civil engineering fundamentals",
+      "status": "Active focus",
+      "note": "Building practical understanding through coursework, calculations and engineering laboratory work."
+    },
+    {
+      "title": "Surveying & field records",
+      "status": "Active focus",
+      "note": "Learning accurate measurement, field-note organisation and clear calculation workflows."
+    },
+    {
+      "title": "Technical documentation",
+      "status": "Ongoing",
+      "note": "Turning project workflows and technical learning into readable articles and project records."
+    }
+  ]
+}

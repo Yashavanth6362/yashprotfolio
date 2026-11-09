@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Yashavanth AN",
+    "headline": "Civil Engineering Student | GIS & Geospatial Technology | Surveying",
+    "location": "Karnataka, India",
+    "email": "",
+    "github": "https://github.com/Yashavanth6362",
+    "linkedin": "",
+    "website": "",
+    "instagram": ""
+  },
+  "skills": [
+    {
+      "name": "Civil Engineering",
+      "description": "Engineering fundamentals, materials, concrete and construction concepts."
+    },
+    {
+      "name": "GIS & Geospatial",
+      "description": "Digital mapping, spatial data, geodatabases and geographic analysis."
+    },
+    {
+      "name": "Surveying",
+      "description": "Field measurements, levelling, traversing and survey calculations."
+    },
+    {
+      "name": "Digital Tools",
+      "description": "QGIS, data organisation, documentation and web-based presentation."
+    }
+  ],
+  "articles": [
+    {
+      "number": "01",
+      "title": "Understanding GIS for campus asset mapping",
+      "category": "GIS / EXPLAINER",
+      "url": "articles/Article1.html",
+      "summary": "How spatial layers can help organise buildings, roads and other campus features."
+    },
+    {
+      "number": "02",
+      "title": "Why accurate field records matter in surveying",
+      "category": "SURVEYING / FIELD NOTES",
+      "url": "articles/Article2.html",
+      "summary": "A practical look at recording measurements, units and observations consistently."
+    }
+  ]
+}

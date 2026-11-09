@@ -1,0 +1,7 @@
+{
+  "_help": "Optional announcement bar. Set enabled to true only when a real campaign or update needs to be displayed.",
+  "enabled": false,
+  "text": "",
+  "linkText": "",
+  "link": ""
+}

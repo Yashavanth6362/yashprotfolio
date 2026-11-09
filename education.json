@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "title": "B.E. Civil Engineering (Lateral Entry)",
+      "institution": "MIT Mysuru",
+      "period": "Expected 2028",
+      "status": "Pursuing"
+    },
+    {
+      "title": "Diploma in Civil Engineering",
+      "institution": "CPC Polytechnic, Mysuru",
+      "period": "Completed 2025",
+      "status": "Completed"
+    },
+    {
+      "title": "10th Standard",
+      "institution": "Passed with Distinction",
+      "period": "Class X",
+      "status": "Completed"
+    }
+  ]
+}
