@@ -5,7 +5,7 @@
     "status": "In documentation",
     "year": "2025–26",
     "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_01.webp",
-    "link": "projects/mit-mysuru-digital-campus-gis.html",
-    "description": "A smartphone-based digital campus GIS project for mapping campus features, organizing geospatial data, and presenting an interactive campus atlas."
+    "url": "projects/mit-mysuru-digital-campus-gis.html",
+    "summary": "A smartphone-based campus GIS prototype for mapping campus features, organizing geospatial data, and presenting an interactive campus atlas."
   }
 ]
