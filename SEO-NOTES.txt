@@ -1,0 +1,21 @@
+SEO UPDATE NOTES
+
+Website:
+https://yashavanth.yashavanthan22.workers.dev/
+
+Add the following SEO metadata inside the <head> section of each HTML page.
+
+<meta name="description" content="Yashavanth AN - Civil Engineering student interested in GIS, geospatial technology, surveying, and digital campus mapping.">
+<meta name="author" content="Yashavanth AN">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Yashavanth AN Portfolio">
+<meta property="og:title" content="Yashavanth AN | Civil Engineering Portfolio">
+<meta property="og:description" content="Explore civil engineering, GIS, surveying, and geospatial projects by Yashavanth AN.">
+<meta property="og:url" content="https://yashavanth.yashavanthan22.workers.dev/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Yashavanth AN | Civil Engineering Portfolio">
+<meta name="twitter:description" content="Civil Engineering, GIS, Surveying and Geospatial Projects.">
+
+Use a unique title and description for every page.
+Do not add fake certificates, qualifications, or professional links.
