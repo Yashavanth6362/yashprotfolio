@@ -1,1 +1,155 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Verified certificates and learning credentials of Yashavanth AN."><meta name="theme-color" content="#101827"><link rel="stylesheet" href="../assets/css/style.css"><link rel="stylesheet" href="../assets/css/theme.css"><link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml"><title>Certificates & Credentials | Yashavanth AN</title></head><body><header class="site-header"><div class="container header-inner"><a class="brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button><nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="../index.html#about">About</a><a href="../index.html#projects">Projects</a><a href="../articles/index.html">Articles</a><a href="../index.html#contact">Contact</a></nav></div></header><main><section class="inner-hero"><div class="container"><p class="crumbs"><a href="../index.html">HOME</a> / CREDENTIALS</p><p class="eyebrow">CERTIFICATES & ACHIEVEMENTS</p><h1>Learning with<br><em>evidence.</em></h1><p class="inner-summary">Certificates, workshops and training records, listed with issuer, date and verification link.</p></div></section><section class="section-pad"><div class="container"><div class="credential-box"><div class="credential-icon">✳</div><h3>No credentials published yet.</h3><p>Credentials will appear here as they are completed.</p></div></div></section></main><footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a><p>Personal portfolio · Credentials</p><a class="back-top" href="../index.html">Back to portfolio ↗</a><small>© <span id="year">2026</span> Yashavanth AN.</small></div></footer><script src="../assets/js/main.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Certificates and learning credentials of Yashavanth AN.">
+<meta name="theme-color" content="#101827">
+<link rel="canonical" href="https://yashavanth.yashavanthan22.workers.dev/certificates/">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/theme.css">
+<link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+<title>Certificates &amp; Credentials | Yashavanth AN</title>
+<style>
+.credentials-section{padding:76px 0 100px}
+.credential-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:20px}
+.credential-card{margin:0;padding:10px;background:#fff;border:1px solid #e0e6ef;border-radius:17px;box-shadow:0 8px 25px rgba(16,24,39,.05);overflow:hidden}
+.credential-card a{display:block;border-radius:10px;overflow:hidden;background:#eef1ff}
+.credential-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#f7f8fb;transition:transform .2s ease}
+.credential-card a:hover img{transform:scale(1.025)}
+.credential-card figcaption{display:grid;gap:5px;padding:13px 7px 7px}
+.credential-card strong{font:700 14px/1.45 var(--display)}
+.credential-card span{font-size:11px;color:#758196;line-height:1.5}
+.credential-card .credential-date{font:10px var(--mono);color:#8994a7}
+.loading-message,.empty-message,.error-message{padding:25px;border:1px solid #e0e6ef;border-radius:16px;background:#fff;color:#687487;font-size:13px}
+.error-message{border-color:#e8b8b8;color:#9b3333}
+@media(max-width:700px){.credentials-section{padding:55px 0 70px}.credential-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.credential-card{padding:7px;border-radius:13px}.credential-card figcaption{padding:10px 4px 5px}.credential-card strong{font-size:12px}.credential-card span{font-size:10px}}
+@media(max-width:390px){.credential-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+<nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+<a href="../index.html#about">About</a><a href="../index.html#projects">Projects</a><a href="../articles/index.html">Articles</a><a href="../index.html#contact">Contact</a>
+</nav></div></header>
+<main>
+<section class="inner-hero"><div class="container"><p class="crumbs"><a href="../index.html">HOME</a> / CREDENTIALS</p><p class="eyebrow">CERTIFICATES &amp; ACHIEVEMENTS</p><h1>Learning with<br><em>evidence.</em></h1><p class="inner-summary">Certificates, workshops and training records, listed with issuer, date and verification link.</p></div></section>
+<section class="credentials-section"><div class="container">
+<div id="certificate-status" class="loading-message" role="status">Loading certificates…</div>
+<div id="certificate-grid" class="credential-grid" aria-live="polite"></div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a><p>Personal portfolio · Credentials</p><a class="back-top" href="../index.html">Back to portfolio ↗</a><small>© <span id="year">2026</span> Yashavanth AN.</small></div></footer>
+<script>
+(() => {
+  const year = document.getElementById('year');
+  if (year) year.textContent = new Date().getFullYear();
+  const menuButton = document.querySelector('.menu-toggle');
+  const nav = document.getElementById('primary-nav');
+  if (menuButton && nav) {
+    const closeMenu = () => {
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
+      nav.classList.remove('is-open');
+    };
+    menuButton.addEventListener('click', () => {
+      const open = menuButton.getAttribute('aria-expanded') !== 'true';
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      nav.classList.toggle('is-open', open);
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeMenu();
+    });
+  }
+
+  const grid = document.getElementById('certificate-grid');
+  const status = document.getElementById('certificate-status');
+
+  const safeHttpUrl = value => {
+    try {
+      const url = new URL(String(value || '').trim(), window.location.href);
+      return url.protocol === 'https:' || url.protocol === 'http:' ? url.href : '';
+    } catch {
+      return '';
+    }
+  };
+
+  const showMessage = (message, className) => {
+    status.className = className;
+    status.textContent = message;
+    status.hidden = false;
+  };
+
+  fetch('../certificates.json', { headers: { Accept: 'application/json' } })
+    .then(response => {
+      if (!response.ok) throw new Error('Certificate data could not be loaded (HTTP ' + response.status + ').');
+      return response.json();
+    })
+    .then(data => {
+      const certificates = Array.isArray(data) ? data : data && data.certificates;
+      if (!Array.isArray(certificates) || certificates.length === 0) {
+        showMessage('No certificates have been added yet.', 'empty-message');
+        return;
+      }
+
+      let count = 0;
+      certificates.forEach(certificate => {
+        if (!certificate || !String(certificate.title || '').trim()) return;
+
+        const card = document.createElement('figure');
+        card.className = 'credential-card';
+
+        const imageUrl = safeHttpUrl(certificate.image);
+        if (imageUrl) {
+          const link = document.createElement('a');
+          link.href = safeHttpUrl(certificate.link) || imageUrl;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.setAttribute('aria-label', 'Open certificate: ' + certificate.title);
+
+          const image = document.createElement('img');
+          image.src = imageUrl;
+          image.alt = 'Certificate: ' + certificate.title;
+          image.loading = 'lazy';
+          image.decoding = 'async';
+          link.append(image);
+          card.append(link);
+        }
+
+        const caption = document.createElement('figcaption');
+        const title = document.createElement('strong');
+        title.textContent = String(certificate.title).trim();
+        caption.append(title);
+
+        const details = [certificate.issuer, certificate.date]
+          .map(value => String(value || '').trim())
+          .filter(Boolean);
+
+        if (details.length) {
+          const meta = document.createElement('span');
+          meta.textContent = details.join(' · ');
+          caption.append(meta);
+        }
+
+        card.append(caption);
+        grid.append(card);
+        count++;
+      });
+
+      if (count > 0) {
+        status.hidden = true;
+      } else {
+        showMessage('No valid certificate entries were found in certificates.json.', 'empty-message');
+      }
+    })
+    .catch(error => {
+      showMessage(error.message + ' Please refresh the page and try again.', 'error-message');
+    });
+})();
+</script>
+</body>
+</html>
