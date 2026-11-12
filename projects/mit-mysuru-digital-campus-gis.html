@@ -1,1 +1,165 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Project overview: MIT Mysuru Digital Campus GIS, a campus mapping and geospatial documentation project by Yashavanth AN."><meta name="author" content="Yashavanth AN"><meta name="theme-color" content="#101827"><link rel="stylesheet" href="../assets/css/style.css"><link rel="stylesheet" href="../assets/css/theme.css"><link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml"><title>MIT Mysuru Digital Campus GIS | Yashavanth AN</title></head><body><header class="site-header"><div class="container header-inner"><a class="brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button><nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="../index.html#about">About</a><a href="index.html">Projects</a><a href="../articles/index.html">Articles</a><a href="../index.html#contact">Contact</a></nav></div></header><main><section class="inner-hero"><div class="container"><p class="crumbs"><a href="../index.html">HOME</a> / <a href="index.html">PROJECTS</a> / CASE STUDY 01</p><p class="eyebrow">GIS / GEOSPATIAL · PROJECT OVERVIEW</p><h1>MIT Mysuru<br><em>Digital Campus GIS.</em></h1><p class="inner-summary">A campus mapping and geospatial documentation concept exploring how physical features can be organised into a structured digital GIS project.</p></div></section><article class="article-shell"><div class="article-meta"><span>CREATOR: YASHAVANTH AN</span><span>GUIDANCE: MANJUNATH RN</span><span>AREA: GIS & DIGITAL MAPPING</span></div><div class="article-body"><h2>Project overview</h2><p>The MIT Mysuru Digital Campus GIS project focuses on representing campus features as geographic information. The concept is to organise mapped features and their descriptive attributes in a way that can support campus understanding and future information management.</p><h2>Project objectives</h2><ul><li>Organise selected campus features into clear spatial layers.</li><li>Represent buildings, internal roads and other approved campus assets.</li><li>Maintain descriptive attributes alongside mapped geometry.</li><li>Prepare documentation that explains the data structure and workflow.</li></ul><h2>Potential data layers</h2><ul><li><strong>Campus boundary:</strong> approved campus extent and reference boundary.</li><li><strong>Buildings:</strong> building footprints and verified names or identifiers.</li><li><strong>Roads and pathways:</strong> internal movement routes.</li><li><strong>Facilities:</strong> selected public-facing facilities and landmarks.</li><li><strong>Utilities:</strong> only where information is authorised for collection and publication.</li></ul><div class="article-callout">A campus GIS must use authorised source information. Exact coordinates, utility layouts and sensitive infrastructure details should not be published without permission.</div><h2>Tools and methods</h2><p>The project is intended to use GIS concepts and tools such as QGIS, spatial layers, attribute tables and appropriate geographic data formats. The specific software versions, coordinate reference system, survey methods and data sources should be recorded in the final technical report.</p><h2>Project status</h2><p>This entry outlines the project’s scope and intended approach. Maps, data sources, methodology and outputs will be added as each stage is completed and verified.</p><h2>Credits</h2><p><strong>Creator:</strong> Yashavanth AN<br><strong>Guidelines:</strong> Manjunath RN</p></div><div class="article-footer-nav"><a class="back-home" href="index.html">← All projects</a><a href="../index.html">Portfolio home →</a></div></article></main><footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a><p>Personal portfolio · Project archive</p><a class="back-top" href="../index.html">Back to portfolio ↗</a><small>© <span id="year">2026</span> Yashavanth AN.</small></div></footer><script src="../assets/js/main.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="MIT Mysuru Digital Campus Atlas — a smartphone-based campus GIS prototype for GPS mapping, field surveys, asset inventory, elevation analysis and QGIS-ready data export. Developed by Yashavanth AN with project guidance from Manjunath RN.">
+  <meta name="author" content="Yashavanth AN">
+  <link rel="canonical" href="https://yashavanth.yashavanthan22.workers.dev/projects/mit-mysuru-digital-campus-gis.html">
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <title>MIT Mysuru Digital Campus Atlas | Yashavanth AN</title>
+  <style>
+    :root{--atlas-blue:#3159e8;--atlas-cyan:#39b8c7;--atlas-ink:#101827;--atlas-muted:#687487;--atlas-card:#fff;--atlas-border:#e0e6ef}
+    .atlas-hero{position:relative;overflow:hidden;background:radial-gradient(circle at 82% 18%,rgba(57,184,199,.24),transparent 31%),linear-gradient(135deg,#0c1728,#142d4b 65%,#10253a);color:#fff;padding:76px 0 58px}
+    .atlas-hero:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;background-image:linear-gradient(rgba(255,255,255,.14) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.14) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(90deg,#000,transparent)}
+    .atlas-hero .container{position:relative;z-index:1}.atlas-hero-grid{display:grid;grid-template-columns:1fr .92fr;gap:42px;align-items:center}
+    .atlas-kicker{font:700 10px var(--mono);letter-spacing:2px;color:#9fe6eb;text-transform:uppercase;margin:0 0 18px}
+    .atlas-hero h1{font:800 clamp(40px,6vw,72px)/1.02 var(--display);letter-spacing:-3px;margin:0 0 19px;color:#fff}
+    .atlas-hero h1 em{font:500 italic 1em var(--serif);color:#86dfe5}.atlas-lead{max-width:610px;color:#d1dce9;font-size:15px;line-height:1.9;margin:0}
+    .atlas-pills{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 0}.atlas-pills span{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#dcecf1;border-radius:999px;padding:7px 11px;font-size:10px;font-weight:700}
+    .atlas-cover{border:1px solid rgba(255,255,255,.22);border-radius:18px;overflow:hidden;background:#0a1626;box-shadow:0 25px 65px rgba(0,0,0,.35)}.atlas-cover img{width:100%;height:auto;display:block}
+    .atlas-statbar{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}.atlas-stat{padding:17px 18px;border:1px solid rgba(255,255,255,.14);border-radius:13px;background:rgba(255,255,255,.055)}.atlas-stat strong{display:block;font:800 23px var(--display);color:#fff}.atlas-stat span{font:9px var(--mono);letter-spacing:1px;color:#a9bfce;text-transform:uppercase}
+    .atlas-section{padding:76px 0}.atlas-section.alt{background:#edf1f6}.atlas-wrap{width:min(1120px,calc(100% - 42px));margin:auto}.atlas-heading{max-width:720px;margin-bottom:32px}.atlas-heading .eyebrow{color:var(--atlas-blue)}.atlas-heading h2{font:800 clamp(30px,4vw,44px)/1.1 var(--display);letter-spacing:-1.8px;margin:0 0 12px;color:#152238}.atlas-heading p{color:#69778a;font-size:14px;line-height:1.9;margin:0}
+    .atlas-intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.atlas-panel{background:#fff;border:1px solid var(--atlas-border);border-radius:16px;padding:26px;box-shadow:0 8px 24px rgba(16,24,39,.035)}.atlas-panel h3{font:800 18px var(--display);margin:0 0 11px;color:#17243a}.atlas-panel p,.atlas-panel li{font-size:13px;line-height:1.85;color:#617084}.atlas-panel ul{padding-left:19px;margin:10px 0 0}.atlas-callout{margin-top:18px;padding:17px 20px;border-left:3px solid var(--atlas-cyan);border-radius:0 10px 10px 0;background:#e7f5f6;color:#315b68;font-size:12px;line-height:1.8}
+    .atlas-feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.atlas-feature{padding:22px;background:#fff;border:1px solid var(--atlas-border);border-radius:14px}.atlas-feature .num{font:800 11px var(--mono);color:var(--atlas-blue);letter-spacing:1px}.atlas-feature h3{font:750 16px var(--display);margin:9px 0 7px;color:#17243a}.atlas-feature p{font-size:12px;line-height:1.8;color:#6b788a;margin:0}
+    .atlas-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}.atlas-shot{margin:0;border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--atlas-border);box-shadow:0 12px 30px rgba(16,24,39,.06)}.atlas-shot a{display:block;background:#dbe4ed}.atlas-shot img{width:100%;height:auto;display:block;transition:transform .35s}.atlas-shot a:hover img{transform:scale(1.015)}.atlas-shot figcaption{padding:16px 18px}.atlas-shot figcaption strong{display:block;font:750 15px var(--display);color:#17243a}.atlas-shot figcaption span{display:block;font-size:11px;color:#718095;margin-top:4px;line-height:1.6}
+    .atlas-flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;counter-reset:step}.atlas-flow div{position:relative;padding:18px 12px;background:#fff;border:1px solid var(--atlas-border);border-radius:12px;min-height:105px}.atlas-flow div:before{counter-increment:step;content:"0" counter(step);display:block;color:var(--atlas-blue);font:800 11px var(--mono);margin-bottom:9px}.atlas-flow strong{display:block;font:750 12px var(--display);color:#1b2b43}.atlas-flow span{display:block;font-size:10px;color:#748196;line-height:1.5;margin-top:4px}
+    .atlas-table-wrap{overflow-x:auto;border:1px solid var(--atlas-border);border-radius:12px;background:#fff}.atlas-table{width:100%;border-collapse:collapse;min-width:620px}.atlas-table th,.atlas-table td{padding:12px 14px;text-align:left;border-bottom:1px solid #e8edf2;font-size:12px;line-height:1.6}.atlas-table th{background:#142d4b;color:#fff;font:700 10px var(--mono);letter-spacing:.7px;text-transform:uppercase}.atlas-table td{color:#5f6e81}.atlas-table tr:last-child td{border-bottom:0}
+    .atlas-credits{display:grid;grid-template-columns:1fr 1fr;gap:18px}.atlas-credit{background:#122943;color:#fff;border-radius:15px;padding:24px}.atlas-credit span{display:block;font:9px var(--mono);letter-spacing:1.4px;color:#93dce1;text-transform:uppercase}.atlas-credit strong{display:block;font:800 20px var(--display);margin-top:7px}.atlas-credit p{font-size:11px;color:#c0cfdb;line-height:1.7;margin:7px 0 0}
+    .atlas-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.atlas-action{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border-radius:999px;background:#3159e8;color:#fff;font-size:11px;font-weight:800}.atlas-action.secondary{background:#fff;color:#20314c;border:1px solid #d8e0ed}.atlas-bottom-note{font-size:11px;color:#7a8797;line-height:1.8;margin-top:22px}
+    @media(max-width:850px){.atlas-hero-grid{grid-template-columns:1fr}.atlas-cover{max-width:720px}.atlas-feature-grid{grid-template-columns:repeat(2,1fr)}.atlas-flow{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:600px){.atlas-hero{padding:56px 0 42px}.atlas-hero h1{font-size:clamp(39px,12vw,57px);letter-spacing:-2px}.atlas-statbar{grid-template-columns:repeat(2,1fr)}.atlas-section{padding:57px 0}.atlas-wrap{width:calc(100% - 32px)}.atlas-intro-grid,.atlas-gallery,.atlas-credits{grid-template-columns:1fr}.atlas-feature-grid{grid-template-columns:1fr}.atlas-flow{grid-template-columns:repeat(2,1fr)}.atlas-panel{padding:21px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.atlas-shot img{transition:none}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Yashavanth AN portfolio home"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="../index.html#about">About</a><a href="index.html">Projects</a><a href="../articles/index.html">Articles</a><a href="../certificates/index.html">Certificates</a><a href="../index.html#contact" class="nav-contact">Contact <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="atlas-hero">
+      <div class="container atlas-hero-grid">
+        <div>
+          <p class="atlas-kicker">MIT Mysuru · Department of Civil Engineering · Smart Campus GIS</p>
+          <h1>Digital Campus<br><em>Geospatial Atlas.</em></h1>
+          <p class="atlas-lead">A smartphone-based campus GIS prototype for mapping campus features, collecting GPS field observations, maintaining an asset register and preparing spatial data for analysis in QGIS.</p>
+          <div class="atlas-pills"><span>GPS Mapping</span><span>Field Survey</span><span>Asset Inventory</span><span>Elevation Analysis</span><span>GeoJSON · CSV</span><span>QGIS Workflow</span></div>
+          <div class="atlas-statbar">
+            <div class="atlas-stat"><strong>6</strong><span>App workspaces</span></div>
+            <div class="atlas-stat"><strong>3</strong><span>Geometry types</span></div>
+            <div class="atlas-stat"><strong>16</strong><span>Asset categories</span></div>
+            <div class="atlas-stat"><strong>WGS 84</strong><span>Coordinate system</span></div>
+          </div>
+        </div>
+        <a class="atlas-cover" href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_01.webp" target="_blank" rel="noopener noreferrer" aria-label="Open Digital Campus Atlas overview infographic">
+          <img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_01.webp" alt="MIT Mysuru Digital Campus Atlas overview infographic showing campus GIS functions and app screens" fetchpriority="high" decoding="async">
+        </a>
+      </div>
+    </section>
+
+    <section class="atlas-section">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">01 / Project overview</p><h2>Turning campus spaces into structured spatial information.</h2><p>The Atlas is designed as a lightweight field-GIS data collector. A surveyor records campus assets as geographic features, adds descriptive attributes and a photograph, then reviews and exports the collected dataset.</p></div>
+        <div class="atlas-intro-grid">
+          <div class="atlas-panel"><h3>Project objectives</h3><ul><li>Build a structured inventory of selected campus assets.</li><li>Capture locations and boundaries as points, lines and polygons.</li><li>Record names, categories, condition and other field attributes.</li><li>Review length, area and elevation observations.</li><li>Export open geospatial data for desktop GIS review and presentation.</li></ul></div>
+          <div class="atlas-panel"><h3>Application specification</h3><ul><li>HTML5 application packaged for Android using the iAppyx native bridge.</li><li>GPS, camera, file storage, print and share integrations.</li><li>WGS 84 geographic coordinates (EPSG:4326); GeoJSON uses longitude, latitude order.</li><li>Esri satellite, street and topographic basemaps require an internet connection.</li><li>Local JSON database on the device, including saved photographs.</li></ul></div>
+        </div>
+        <div class="atlas-callout"><strong>Scope:</strong> This is an academic mapping and asset-inventory platform for preliminary planning, teaching and project demonstration. It is not a substitute for survey-grade GNSS, cadastral control, differential levelling or engineering setting-out.</div>
+      </div>
+    </section>
+
+    <section class="atlas-section alt">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">02 / Core capabilities</p><h2>One workflow across six workspaces.</h2><p>The supplied application build includes the following screens and functions.</p></div>
+        <div class="atlas-feature-grid">
+          <article class="atlas-feature"><span class="num">01 / DASHBOARD</span><h3>Project overview</h3><p>Quick access to project status, campus links, survey shortcuts and counters for mapped assets, GPS vertices and photographs.</p></article>
+          <article class="atlas-feature"><span class="num">02 / GPS MAP</span><h3>Map workspace</h3><p>Switch satellite, street and topographic basemaps; navigate, centre on GPS, fit surveyed features and inspect map overlays.</p></article>
+          <article class="atlas-feature"><span class="num">03 / FIELD SURVEY</span><h3>GPS data capture</h3><p>Collect point, line or polygon geometry, capture GPS and altitude observations, enter attributes and attach a photograph.</p></article>
+          <article class="atlas-feature"><span class="num">04 / ANALYSIS</span><h3>Elevation and spatial analysis</h3><p>Review length, area, elevation summaries, elevation profile, route gradient and asset-category distribution.</p></article>
+          <article class="atlas-feature"><span class="num">05 / ASSETS</span><h3>Campus asset register</h3><p>Search, inspect, edit and delete saved features; export GeoJSON and CSV, or back up and restore the local database.</p></article>
+          <article class="atlas-feature"><span class="num">06 / REPORT</span><h3>Project reporting</h3><p>Refresh the live report and print or save a two-page A4 PDF with the current survey summary and data-quality notes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="atlas-section">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">03 / Application gallery</p><h2>Interface and project evidence.</h2><p>Images are served from the separate public GitHub asset repository in WebP format. Open any image to view it at full size.</p></div>
+        <div class="atlas-gallery">
+          <figure class="atlas-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_02.webp" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_02.webp" alt="MIT Campus Atlas professional project report screen" loading="lazy" decoding="async"></a><figcaption><strong>Professional project report</strong><span>Live A4 report preview with summary, objectives and key project figures.</span></figcaption></figure>
+          <figure class="atlas-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_03.webp" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_03.webp" alt="Campus asset register with search and asset records" loading="lazy" decoding="async"></a><figcaption><strong>Campus asset register</strong><span>Search and inspect mapped assets, review attributes and manage records.</span></figcaption></figure>
+          <figure class="atlas-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_04.webp" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_04.webp" alt="Elevation analysis overview and profile graph" loading="lazy" decoding="async"></a><figcaption><strong>Elevation and analysis</strong><span>Elevation overview, profile graph and route-analysis workspace.</span></figcaption></figure>
+          <figure class="atlas-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_05.webp" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_05.webp" alt="Field survey form for geometry setup and GPS capture" loading="lazy" decoding="async"></a><figcaption><strong>Field survey form</strong><span>Choose asset category and geometry, then capture GPS and elevation data.</span></figcaption></figure>
+          <figure class="atlas-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_07.webp" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_07.webp" alt="Campus Atlas dashboard showing project information and mapped-asset counters" loading="lazy" decoding="async"></a><figcaption><strong>Dashboard</strong><span>Project entry point, campus information and survey counters.</span></figcaption></figure>
+          <figure class="atlas-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_08.webp" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_08.webp" alt="MIT Mysuru Campus Atlas welcome screen" loading="lazy" decoding="async"></a><figcaption><strong>Welcome screen</strong><span>MIT Mysuru Civil Engineering project identity and application entry.</span></figcaption></figure>
+        </div>
+        <p class="atlas-bottom-note">The image repository currently contains files 01–05 and 07–08; file 06 was not present in the checked folder, so this page does not reference it.</p>
+      </div>
+    </section>
+
+    <section class="atlas-section alt">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">04 / Field workflow</p><h2>From planning to GIS delivery.</h2><p>A consistent sequence helps keep field records organised and easier to verify.</p></div>
+        <div class="atlas-flow">
+          <div><strong>Plan survey</strong><span>Choose zones, features, IDs and team roles.</span></div>
+          <div><strong>Set campus centre</strong><span>Capture a current GPS reference at the site.</span></div>
+          <div><strong>Collect features</strong><span>Record points, lines or polygons with attributes.</span></div>
+          <div><strong>Verify records</strong><span>Review geometry, accuracy, names and photos.</span></div>
+          <div><strong>Analyse</strong><span>Review length, area and elevation indicators.</span></div>
+          <div><strong>Export</strong><span>Save GeoJSON, CSV, backup JSON and PDF report.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="atlas-section">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">05 / Technical details</p><h2>Data model and interoperability.</h2><p>Key details documented for the supplied application build.</p></div>
+        <div class="atlas-table-wrap"><table class="atlas-table"><thead><tr><th>Item</th><th>Specification</th></tr></thead><tbody>
+          <tr><td>Geometry</td><td>Point (1 vertex), LineString (2 or more vertices), Polygon (3 or more vertices; closing edge automatic).</td></tr>
+          <tr><td>Coordinate reference</td><td>WGS 84 (EPSG:4326); GeoJSON coordinate order is longitude, latitude (CRS84).</td></tr>
+          <tr><td>Asset categories</td><td>16 categories covering buildings, departments, library, laboratory, seminar hall, hostel, canteen, roads, trees, drainage, parking, water, electricity, main gate, open space and other.</td></tr>
+          <tr><td>Walk capture</td><td>A new vertex is added when the latest GPS fix is at least 1.0 metre from the previous vertex.</td></tr>
+          <tr><td>Local storage</td><td>Device-side JSON database (schema version 3); photographs are stored in the database.</td></tr>
+          <tr><td>Exports</td><td>GeoJSON feature data, CSV vertex rows, full JSON backup, shareable text summary and two-page A4 PDF.</td></tr>
+          <tr><td>QGIS delivery</td><td>Load GeoJSON in QGIS; the guide recommends EPSG:32643 for projected length and area recalculation in the Mysuru area.</td></tr>
+        </tbody></table></div>
+        <div class="atlas-callout"><strong>Data management note:</strong> The current build stores data locally on the device and does not provide cloud synchronisation. Take regular JSON backups. Photographs are included in the backup but are not embedded in GeoJSON or CSV exports.</div>
+      </div>
+    </section>
+
+    <section class="atlas-section alt">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">06 / Accuracy and responsible use</p><h2>Understand the limits of smartphone GIS.</h2><p>Good field practice and honest reporting are part of a reliable engineering project.</p></div>
+        <div class="atlas-intro-grid">
+          <div class="atlas-panel"><h3>Field quality practices</h3><ul><li>Capture outdoors with a clear sky view and allow the GPS fix to settle.</li><li>Record the GPS accuracy value and use a project threshold.</li><li>Recheck suspicious points, line spikes and polygon corners.</li><li>Use consistent asset names, IDs, condition values and remarks.</li><li>Back up the local database after each survey session.</li></ul></div>
+          <div class="atlas-panel"><h3>Limitations to report</h3><ul><li>Consumer phone GNSS is not RTK or differential positioning.</li><li>Phone altitude is not differential levelling or a terrain model.</li><li>Basemap tiles require internet and imagery may be old or offset.</li><li>Calculated lengths, areas and gradients are indicative and need validation.</li><li>Do not use the app alone for cadastral, setting-out, structural or design decisions.</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="atlas-section">
+      <div class="atlas-wrap">
+        <div class="atlas-heading"><p class="eyebrow">07 / Project credits</p><h2>Developed as a Civil Engineering GIS project.</h2><p>Project identity and acknowledgement as presented in the supplied project material.</p></div>
+        <div class="atlas-credits">
+          <div class="atlas-credit"><span>Developed by</span><strong>Yashavanth AN</strong><p>Department of Civil Engineering<br>Maharaja Institute of Technology Mysore</p></div>
+          <div class="atlas-credit"><span>Project guide</span><strong>Manjunath RN</strong><p>Project guidance and field-work direction.</p></div>
+        </div>
+        <div class="atlas-actions"><a class="atlas-action" href="../index.html#projects">← Back to portfolio projects</a><a class="atlas-action secondary" href="../index.html">Portfolio home ↗</a></div>
+        <p class="atlas-bottom-note">This project page describes the supplied app build and professional user guide. App capabilities, screen names and technical specifications should be updated when the application changes. Campus survey outputs should be labelled with their actual capture date, source and accuracy.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a><p>Civil Engineering · GIS · Surveying</p><a class="back-top" href="#main">Back to top ↑</a><small>© <span id="year">2026</span> Yashavanth AN. All rights reserved.</small></div></footer>
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>
