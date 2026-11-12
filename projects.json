@@ -1,19 +1,11 @@
-{
-  "_help": "Add every project here. status: Completed | In progress | In documentation. image: optional URL or assets/images/...",
-  "projects": [
-    {
-      "title": "MIT Mysuru Digital Campus GIS",
-      "category": "GIS / GEOSPATIAL",
-      "summary": "A geospatial documentation concept for representing campus buildings, roads and assets as organised spatial information.",
-      "url": "projects/mit-mysuru-digital-campus-gis.html",
-      "status": "In documentation",
-      "tags": [
-        "GIS",
-        "Campus mapping",
-        "Spatial data"
-      ],
-      "year": "2025–26",
-      "image": ""
-    }
-  ]
-}
+[
+  {
+    "title": "MIT Mysuru Digital Campus GIS",
+    "category": "GIS / GEOSPATIAL",
+    "status": "In documentation",
+    "year": "2025–26",
+    "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_01.webp",
+    "link": "projects/mit-mysuru-digital-campus-gis.html",
+    "description": "A smartphone-based digital campus GIS project for mapping campus features, organizing geospatial data, and presenting an interactive campus atlas."
+  }
+]
