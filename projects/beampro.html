@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="BeamPro is a Civil Engineering beam-analysis application featuring beam modelling, load cases, support reactions, SFD, BMD and deflection review. Project by Yashavanth AN.">
+<meta name="author" content="Yashavanth AN"><meta name="theme-color" content="#101827">
+<meta property="og:type" content="article"><meta property="og:title" content="BeamPro — Structural Beam Analysis | Yashavanth AN">
+<meta property="og:description" content="A mobile-friendly Civil Engineering beam-analysis application project.">
+<meta property="og:image" content="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-06.webp">
+<link rel="stylesheet" href="../assets/css/style.css"><link rel="stylesheet" href="../assets/css/theme.css">
+<link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+<title>BeamPro — Structural Beam Analysis | Yashavanth AN</title>
+<style>
+.beampro-actions{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 30px}
+.beampro-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 18px;border-radius:999px;font-size:11px;font-weight:800}
+.beampro-actions .primary{background:#8297ff;color:#101827}
+.beampro-actions .secondary{border:1px solid #cdd5e5;color:#24314a}
+.beampro-note{background:#eef1ff;border-left:3px solid #8297ff;border-radius:0 12px 12px 0;padding:16px 18px;color:#354b83;font-size:13px;line-height:1.8;margin:24px 0}
+.beampro-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:24px 0}
+.beampro-shot{margin:0;background:#fff;border:1px solid #e0e6ef;border-radius:15px;overflow:hidden;box-shadow:0 8px 24px rgba(16,24,39,.05)}
+.beampro-shot a{display:block;background:#0c1422}
+.beampro-shot img{width:100%;height:auto;max-height:650px;object-fit:contain}
+.beampro-shot figcaption{padding:11px 13px;color:#647187;font-size:11px;line-height:1.5}
+.beampro-specs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+.beampro-spec{padding:16px;background:#f0f3f8;border:1px solid #e0e6ef;border-radius:12px}
+.beampro-spec b{display:block;font-size:12px;color:#172238;margin-bottom:5px}
+.beampro-spec span{display:block;color:#697487;font-size:12px;line-height:1.6}
+.beampro-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:12px}
+.beampro-table th,.beampro-table td{padding:10px 12px;border:1px solid #e0e6ef;text-align:left;vertical-align:top}
+.beampro-table th{background:#101827;color:#fff;font-size:10px;letter-spacing:.5px}
+.beampro-table tr:nth-child(even) td{background:#f3f5f9}
+.beampro-download small{display:block;font-size:10px;font-weight:500;opacity:.8;margin-top:3px}
+@media(max-width:600px){.beampro-gallery,.beampro-specs{grid-template-columns:1fr}.beampro-actions a{width:100%}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a>
+<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+<nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+<a href="../index.html#about">About</a><a href="index.html">Projects</a><a href="../articles/index.html">Articles</a><a href="../index.html#contact">Contact</a>
+</nav></div></header>
+
+<main>
+<section class="inner-hero"><div class="container">
+<p class="crumbs"><a href="../index.html">HOME</a> / <a href="index.html">PROJECTS</a> / BEAMPRO</p>
+<p class="eyebrow">CIVIL ENGINEERING / STRUCTURAL ANALYSIS / FEM</p>
+<h1>BeamPro<br><em>Structural Beam Analysis.</em></h1>
+<p class="inner-summary">A mobile-friendly beam-analysis application for defining beam properties, support conditions and load cases, then inspecting calculated structural response through numerical results and engineering diagrams.</p>
+<div class="beampro-actions">
+<a class="primary" href="https://github.com/Yashavanth6362/yashavanth-assets/raw/refs/heads/main/app/base%281%29.apk" target="_blank" rel="noopener">Download Android APK ↗</a>
+<a class="secondary" href="https://github.com/Yashavanth6362/yashavanth-assets/tree/main/project/beam" target="_blank" rel="noopener">View project screenshots ↗</a>
+<a class="secondary" href="https://github.com/Yashavanth6362/yashavanth-assets/blob/main/BEAMAPP/index.html" target="_blank" rel="noopener">View BeamPro source ↗</a>
+</div>
+</div></section>
+
+<article class="article-shell">
+<div class="article-meta"><span>CREATOR: YASHAVANTH AN</span><span>DISCIPLINE: CIVIL ENGINEERING</span><span>TYPE: WEB / ANDROID PROJECT</span><span>YEAR: 2026</span></div>
+<div class="article-body">
+<h2>Project overview</h2>
+<p class="lead">BeamPro brings common beam-modelling inputs and response visualisation into one compact interface. The user defines the beam, assigns supports, adds loads and reviews the analysis output through diagrams, response tables and preliminary checks.</p>
+<p>The application interface includes Model, Loads, Results, Projects and About sections. The project screenshots show a typical workflow from beam setup and load entry to result review and project saving.</p>
+
+<div class="beampro-specs">
+<div class="beampro-spec"><b>Beam modelling</b><span>Span, elastic modulus, second moment of area, section depth and allowable stress inputs.</span></div>
+<div class="beampro-spec"><b>Support conditions</b><span>Pinned, roller and fixed restraints, with support positions along the beam.</span></div>
+<div class="beampro-spec"><b>Load definition</b><span>Point loads, uniform loads, varying distributed loads and applied moments.</span></div>
+<div class="beampro-spec"><b>Response review</b><span>Support reactions, shear force, bending moment, deflection and tabulated values.</span></div>
+</div>
+
+<h2>Application workflow</h2>
+<ol>
+<li><b>Define the beam:</b> enter the span, material elastic modulus and section properties.</li>
+<li><b>Set the supports:</b> select support types and their locations to represent the intended structural boundary conditions.</li>
+<li><b>Add loads:</b> enter load magnitudes, locations or ranges, directions and dead/live load case labels.</li>
+<li><b>Run analysis:</b> solve the beam model and review the equilibrium status, support reactions and response quantities.</li>
+<li><b>Interpret results:</b> inspect the SFD, BMD, deflected shape, extrema and values along the span.</li>
+<li><b>Save and document:</b> store named model projects and prepare a report for review.</li>
+</ol>
+
+<h2>Analysis method represented in the source</h2>
+<p>The BeamPro source identifies a direct-stiffness finite-element approach using Euler–Bernoulli beam elements. Each beam element contributes stiffness to the assembled structural system. The global displacement unknowns are obtained from the linear system:</p>
+<div class="beampro-note"><b>Global equilibrium equation</b><br><span style="font-size:19px;font-weight:800">[K]{d} = {F}</span><br>[K] is the assembled stiffness matrix, {d} is the vector of nodal displacement and rotation degrees of freedom, and {F} is the applied nodal load vector.</div>
+<p>Support restraints are represented as boundary conditions. Once the displacement solution is obtained, the program recovers support reactions and evaluates shear force, bending moment and deflection along the beam. The displayed bending-stress and deflection checks compare the calculated response with values entered by the user.</p>
+
+<h2>Visible application features</h2>
+<table class="beampro-table">
+<thead><tr><th>AREA</th><th>FUNCTION SHOWN</th></tr></thead>
+<tbody>
+<tr><td>Model</td><td>Beam preview, material presets, section inputs and support setup.</td></tr>
+<tr><td>Loads</td><td>Point, uniform, varying and moment load entry; dead/live case labels and load factors.</td></tr>
+<tr><td>Results</td><td>Selected-position readout, support reactions, maximum/minimum values, design-check summary and diagrams.</td></tr>
+<tr><td>Projects</td><td>Name, save, open and delete saved beam models.</td></tr>
+<tr><td>Reports</td><td>Report download, print preparation and text-sharing controls are visible in the supplied screenshots.</td></tr>
+</tbody>
+</table>
+
+<h2>Application screenshots</h2>
+<p>The following images are served from the public <b>yashavanth-assets</b> repository. Each screenshot is an optimized WebP asset.</p>
+<div class="beampro-gallery">
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-06.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-06.webp" alt="BeamPro model setup and beam section input" loading="lazy" decoding="async"></a><figcaption>01 — Model setup, beam preview and section properties.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-05.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-05.webp" alt="BeamPro load entry screen" loading="lazy" decoding="async"></a><figcaption>02 — Load definition and point-load input.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-04.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-04.webp" alt="BeamPro numerical results and support reactions" loading="lazy" decoding="async"></a><figcaption>03 — Analysis status, support reactions and numerical response.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-03.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-03.webp" alt="BeamPro shear force and bending moment diagrams" loading="lazy" decoding="async"></a><figcaption>04 — Shear-force and bending-moment diagrams.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-02.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-02.webp" alt="BeamPro deflection diagram and response table" loading="lazy" decoding="async"></a><figcaption>05 — Deflected shape and tabulated beam response.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-01.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-01.webp" alt="BeamPro saved projects screen" loading="lazy" decoding="async"></a><figcaption>06 — Project naming and saved-project management.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-07.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-07.webp" alt="BeamPro report options" loading="lazy" decoding="async"></a><figcaption>07 — Report download, print preparation and sharing controls.</figcaption></figure>
+<figure class="beampro-shot"><a href="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-08.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-08.webp" alt="BeamPro report controls alternate capture" loading="lazy" decoding="async"></a><figcaption>08 — Additional capture of the report controls.</figcaption></figure>
+</div>
+
+<h2>Limitations and responsible use</h2>
+<div class="beampro-note"><b>Engineering scope:</b> BeamPro is presented as an educational and preliminary analysis tool. The displayed bending-stress and deflection comparisons are not a complete structural design verification.</div>
+<p>The current interface explicitly notes that shear and stability are not checked. The project page therefore does not claim full verification of shear resistance, lateral-torsional buckling, local buckling, connection design, vibration, durability, fire resistance or compliance with a particular design code. Model inputs, assumptions, load combinations and outputs must be independently reviewed by a qualified structural engineer before any safety-critical or construction use.</p>
+
+<h2>Project credits</h2>
+<p><b>Creator:</b> YASHAVANTH AN<br><b>Discipline:</b> Civil Engineering<br><b>Project:</b> BeamPro — Structural Beam Analysis</p>
+<div class="beampro-actions">
+<a class="primary" href="https://github.com/Yashavanth6362/yashavanth-assets/raw/refs/heads/main/app/base%281%29.apk" target="_blank" rel="noopener">Download Android APK ↗</a>
+<a class="secondary" href="https://github.com/Yashavanth6362/yashavanth-assets/blob/main/BEAMAPP/index.html" target="_blank" rel="noopener">Open source file ↗</a>
+</div>
+<div class="article-footer-nav"><a class="back-home" href="index.html">← All projects</a><a href="../index.html">Portfolio home →</a></div>
+</div></article>
+</main>
+<footer class="site-footer"><div class="container footer-inner">
+<a class="brand footer-brand" href="../index.html"><span class="brand-mark">YA</span><span class="brand-name">YASHAVANTH <b>AN.</b></span></a>
+<p>Personal portfolio · Project archive</p><a class="back-top" href="../index.html">Back to portfolio ↗</a><small>© <span id="year">2026</span> Yashavanth AN.</small>
+</div></footer>
+<script src="../assets/js/main.js" defer></script>
+</body></html>
