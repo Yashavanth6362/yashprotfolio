@@ -7,21 +7,21 @@
     "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/mitatlast/campus_atlas_01.webp",
     "url": "projects/mit-mysuru-digital-campus-gis.html",
     "summary": "A smartphone-based campus GIS prototype for mapping campus features, organizing geospatial data, and presenting an interactive campus atlas."
+  },
+  {
+    "title": "BeamPro — Structural Beam Analysis",
+    "category": "CIVIL ENGINEERING / FEM",
+    "status": "Application prototype",
+    "year": "2026",
+    "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-06.webp",
+    "url": "projects/beampro.html",
+    "summary": "A mobile-friendly beam analysis application featuring beam modelling, load cases, support reactions, SFD, BMD, deflection and preliminary design checks.",
+    "tags": [
+      "Finite Element Method",
+      "Beam Analysis",
+      "SFD / BMD",
+      "Deflection",
+      "Android"
+    ]
   }
 ]
-{
-  "title": "BeamPro — Structural Beam Analysis",
-  "category": "CIVIL ENGINEERING / FEM",
-  "status": "Application prototype",
-  "year": "2026",
-  "image": "https://raw.githubusercontent.com/Yashavanth6362/yashavanth-assets/main/project/beam/beampro-screenshot-06.webp",
-  "url": "projects/beampro.html",
-  "summary": "A mobile-friendly beam analysis application featuring beam modelling, load cases, support reactions, SFD, BMD, deflection and preliminary design checks.",
-  "tags": [
-    "Finite Element Method",
-    "Beam Analysis",
-    "SFD / BMD",
-    "Deflection",
-    "Android"
-  ]
-}
